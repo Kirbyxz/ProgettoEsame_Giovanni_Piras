@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-solar-yellow: #eab308;
+  --color-solar-gray: #374151;
+  --color-energy-green: #22c55e;
+}
+
+body {
+  background-color: #f3f4f6;
+  color: #111827;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #d1d5db;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #eab308;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #374151;
+  color: white;
+}
