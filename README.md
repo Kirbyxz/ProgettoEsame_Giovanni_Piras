@@ -48,5 +48,5 @@ Per realizzare questo MVP ho utilizzato l'intelligenza artificiale (ChatGPT) che
 2. Far partire il server con: `npm run dev`
 3. Aprire il browser su: `http://localhost:3000`
 
----
-Copyright 2025 - SolarTech S.p.A.
+ho utilizzato l'AI per la formattazione del testo
+Giovanni Piras.
