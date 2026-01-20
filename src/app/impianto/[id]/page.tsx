@@ -53,7 +53,7 @@ export default function ImpiantoDettaglio({ params }: { params: Promise<{ id: st
                 <h3 style={{ marginBottom: '20px' }}>Andamento Produzione (Ultimi Inserimenti)</h3>
                 <div style={{ width: '100%', height: '300px', backgroundColor: '#f9fafb', padding: '10px', borderRadius: '8px' }}>
                     <ResponsiveContainer width="100%" height="100%">
-                        <LineChart data={history}>
+                        <LineChart data={[...history].reverse()}>
                             <CartesianGrid strokeDasharray="3 3" vertical={false} />
                             <XAxis
                                 dataKey="data"
